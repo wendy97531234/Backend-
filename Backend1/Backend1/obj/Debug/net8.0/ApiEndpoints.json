@@ -39,19 +39,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "a",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
-        "Name": "b",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
         "Name": "c",
-        "Type": "Backend1.Controllers.Numbers",
+        "Type": "Backend1.Controllers.OperationsController\u002BNumbers",
         "IsRequired": true
+      },
+      {
+        "Name": "X-MyHeadersProgra2",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
