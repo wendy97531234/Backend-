@@ -47,6 +47,11 @@
         "Name": "b",
         "Type": "System.Decimal",
         "IsRequired": false
+      },
+      {
+        "Name": "c",
+        "Type": "Backend1.Controllers.Numbers",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [

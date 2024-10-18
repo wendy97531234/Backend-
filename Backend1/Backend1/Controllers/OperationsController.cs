@@ -10,12 +10,17 @@ namespace Backend1.Controllers
         [HttpGet]
         public decimal Get(decimal a, decimal b)
         {
-            return a +b;
+            return a + b;
         }
         [HttpPost]
-        public decimal Add(decimal a, decimal b)
+        public decimal Add(decimal a, decimal b, Numbers c)
         {
-            return a - b;
+            return  c.A  - c.B;
+        }
+        public class Numbers
+        {
+            public decimal A { get; set; }
+            public decimal B { get; set; }
         }
         [HttpPut]
         public decimal multiplicar(decimal a, decimal b)
@@ -25,7 +30,9 @@ namespace Backend1.Controllers
         [HttpDelete]
         public decimal Nmas1(decimal a, decimal b)
         {
-            return a*(b + 1);
+            return a * (b + 1);
         }
     }
+   
 }
+
