@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\olivo\\OneDrive\\Escritorio\\Backend-\\Backend1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{921433E4-104C-4624-8C31-43EB90E72E79}|Backend1\\Backend1.csproj|c:\\users\\olivo\\onedrive\\escritorio\\backend-\\backend1\\backend1\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921433E4-104C-4624-8C31-43EB90E72E79}|Backend1\\Backend1.csproj|solutionrelative:backend1\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921433E4-104C-4624-8C31-43EB90E72E79}|Backend1\\Backend1.csproj|c:\\users\\olivo\\onedrive\\escritorio\\backend-\\backend1\\backend1\\controllers\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921433E4-104C-4624-8C31-43EB90E72E79}|Backend1\\Backend1.csproj|solutionrelative:backend1\\controllers\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{921433E4-104C-4624-8C31-43EB90E72E79}|Backend1\\Backend1.csproj|c:\\users\\olivo\\onedrive\\escritorio\\backend-\\backend1\\backend1\\controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{921433E4-104C-4624-8C31-43EB90E72E79}|Backend1\\Backend1.csproj|solutionrelative:backend1\\controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,30 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\olivo\\OneDrive\\Escritorio\\Backend-\\Backend1\\Backend1\\Controllers\\Repository.cs",
+              "RelativeDocumentMoniker": "Backend1\\Controllers\\Repository.cs",
+              "ToolTip": "C:\\Users\\olivo\\OneDrive\\Escritorio\\Backend-\\Backend1\\Backend1\\Controllers\\Repository.cs",
+              "RelativeToolTip": "Backend1\\Controllers\\Repository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T00:19:57.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\olivo\\OneDrive\\Escritorio\\Backend-\\Backend1\\Backend1\\Controllers\\PersonaController.cs",
+              "RelativeDocumentMoniker": "Backend1\\Controllers\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\olivo\\OneDrive\\Escritorio\\Backend-\\Backend1\\Backend1\\Controllers\\PersonaController.cs*",
+              "RelativeToolTip": "Backend1\\Controllers\\PersonaController.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T00:17:01.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "OperationsController.cs",
               "DocumentMoniker": "C:\\Users\\olivo\\OneDrive\\Escritorio\\Backend-\\Backend1\\Backend1\\Controllers\\OperationsController.cs",
               "RelativeDocumentMoniker": "Backend1\\Controllers\\OperationsController.cs",
-              "ToolTip": "C:\\Users\\olivo\\OneDrive\\Escritorio\\Backend-\\Backend1\\Backend1\\Controllers\\OperationsController.cs*",
-              "RelativeToolTip": "Backend1\\Controllers\\OperationsController.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwA8AAABNAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\olivo\\OneDrive\\Escritorio\\Backend-\\Backend1\\Backend1\\Controllers\\OperationsController.cs",
+              "RelativeToolTip": "Backend1\\Controllers\\OperationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T00:20:01.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\olivo\\OneDrive\\Escritorio\\Backend-\\Backend1\\Backend1\\Program.cs",
               "RelativeDocumentMoniker": "Backend1\\Program.cs",
               "ToolTip": "C:\\Users\\olivo\\OneDrive\\Escritorio\\Backend-\\Backend1\\Backend1\\Program.cs",
               "RelativeToolTip": "Backend1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T00:15:30.858Z",
               "EditorCaption": ""
