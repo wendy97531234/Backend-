@@ -11,20 +11,20 @@ namespace Backend1.Controllers
         public List<PersonaDatos> GetPersonaDatos() => Repository.persona;
 
         [HttpGet("{Id}")]
-        public ActionResult<PersonaDatos> Get(int Id) {
-            var persona = Repository.persona.FirstOrDefault(p => p.Id == Id);
-            if (persona == null)
-            {
+        public ActionResult<PersonaDatos> Get(int Id)
+        {
+            var persona = Repository.persona.FirstOrDefault(x => x.Id == Id);
+
+            if (persona == null) {
                 return NotFound();
             }
-                }
+            return Ok(persona);
 
 
+        //[HttpGet("Search/{search}")]
+        // public List<PersonaDatos> Get(string search) =>
+        //        Repository.persona.Where(p => p.Name.ToUpper().Contains(search.ToUpper())).ToList();
 
-        [HttpGet("Search/{search}")]
-         public List<PersonaDatos> Get(string search) =>
-            Repository.persona.Where(p=> p.Name.ToUpper().Contains(search.ToUpper())).ToList();
+        }
 
-    }
-   
-}
+    } }
